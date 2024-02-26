@@ -1,0 +1,16 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.gallery {
+    display: grid;
+    background-color: black;
+    grid-template-columns: repeat(3, 400px); 
+    gap: 20px; 
+    padding: 20px;
+}
+.item img{
+    max-width: 100%;
+    height: auto;
+}
